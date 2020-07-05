@@ -204,8 +204,10 @@ a {
 /* About Styling */
 .about-schedule {
   
-        border: 12px solid rgba(196, 196, 196, 0.49);
+        border: 12px solid #092c4c;
         padding: 30px;
+        margin-left: 50px;
+        
     
 }
 
@@ -285,12 +287,15 @@ a {
     text-align: center;
   }
 }
+ 
+
 
 .btn-dark.btn-theme-colored {
   color: #fff;
   background-color: #f2994a;
   border-color: #f2994a;
 }
+
 
 #services .font-weight-bold {
   color: #092c4c;
@@ -599,6 +604,7 @@ line-height: 22px;
   font-weight: bold;
   font-size: 24px;
   line-height: 53px;
+  
 }
 
 .mark-title {
@@ -635,8 +641,28 @@ color: rgba(255, 255, 255, 0.6);
   color: #FFFFFF ;
   display: grid;
   place-items: center;
-  top: -30px;
+  top: -30px !important;
   right: 24px;
+}
+#products .product-price {
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  background-color: #092C4C;
+  border-radius: 50%;
+  font-family: 'Lato', sans-serif ;
+  font-style: normal ;
+  font-weight: bold ;
+  font-size: 24px ;
+  line-height: 22px ;
+  color: #FFFFFF ;
+  display: grid;
+  place-items: center;
+  top: 50px !important;
+  left: 119px;
+}
+[data-aos][data-aos][data-aos-delay="100"].aos-animate, body[data-aos-delay="100"] [data-aos].aos-animate {
+  transition-delay: .1s;
 }
 
 .upper {
