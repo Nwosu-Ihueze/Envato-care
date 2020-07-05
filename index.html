@@ -21,7 +21,7 @@
   <!--Animate-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
   <!--Iconn-->
-  <link rel="shortcut icon" href="./img/Envato-logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/Envato-icon.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/variant.css" />
  
 </head>
@@ -524,7 +524,11 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
-  AOS.init();
+  $(document).ready(function(){
+    $(window).on("load", function () {
+    AOS.init();
+    });
+  });
 </script>
   
 </body>
